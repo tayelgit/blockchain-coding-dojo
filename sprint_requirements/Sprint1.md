@@ -1,4 +1,4 @@
-##Dezentraler Ticketshop
+## Dezentraler Ticketshop
 
 Es wird eine Anwendung benötigt, die es unabhängigen Künstlern ( Bands, Theathergruppen, etc.) erlaubt, Tickets für Ihre Veranstaltungen zu verkaufen. 
 
