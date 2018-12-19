@@ -1,4 +1,4 @@
-##Dezentraler Ticketshop
+## Dezentraler Ticketshop
 
 Der Ticketshop soll um eine weitere Komponente erweitert werden.
 Es soll ein Registry Contract entwickelt werden um das Management der Ticketsales zu vereinfachen.
