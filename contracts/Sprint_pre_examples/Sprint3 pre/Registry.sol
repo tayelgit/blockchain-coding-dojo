@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-contract Bill{
+contract Payment{
 
     mapping (address => bool) public paid;
     
@@ -51,7 +51,7 @@ contract Registry {
     mapping(address => address[]) private userContracts;
     
     function createNewBill(uint _fee, string _topic) public {
-        address newBill = new Bill(_fee,_topic);
+        address newBill = new Payment(_fee,_topic);
         userContracts[msg.sender].push(newBill);
     }
 

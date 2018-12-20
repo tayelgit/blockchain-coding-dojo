@@ -11,4 +11,4 @@
 **Optional Features:** 
 
 * Es soll möglich sein Tickets an andere Personen zu verschenken.
-* Es soll möglich sein Tickets, gegen eine Stronogebür von 25%,  zurückzugeben und sein Geld zurückzubekommen
+* Es soll möglich sein Tickets gegen eine Stronogebühr von 25%  zurückzugeben und sein Geld zurückzubekommen

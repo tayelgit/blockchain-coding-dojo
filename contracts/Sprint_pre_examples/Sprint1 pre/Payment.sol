@@ -1,16 +1,14 @@
 pragma solidity 0.4.24;
 
-contract Bill{
+contract Payment{
 
     mapping (address => bool) public paid;
     uint public fee;
-    address public owner;
     string public topic;
 
     constructor(uint _fee, string _topic)public{
         fee = _fee;
         topic = _topic;
-        owner = msg.sender;
     }
 
     function pay() public payable {
@@ -22,18 +20,4 @@ contract Bill{
         return paid[msg.sender];
     }
 
-    //Owner functions
-    modifier onlyOwner(){
-        require(msg.sender == owner);
-        _;
-    }
-
-     function kill() public onlyOwner(){
-        selfdestruct(owner);
-    }
-
-    function withdraw() public onlyOwner(){
-        uint amount = address(this).balance;
-        owner.transfer(amount);
-    }
 }

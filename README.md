@@ -24,7 +24,7 @@ Während des Dojos benutzen wir folgende Tools. Davon musst du _nichts_ installi
 
 [Cheatsheet](./cheatsheet.md)
 
-Solidity ist die Standard Sprache für Smart Contracts auf der Ethereum Blockchain. Sie ist von bekannten Sprachen wie C++, Python, JavaScript beeinflusst. Wir haben für dich ein [Cheatsheet](./cheatsheet.md) geschrieben, welches die wichtigsten Sprachkonstrukte erklärt.
+Solidity ist die Standard Sprache für Smart Contracts auf der Ethereum Blockchain. Sie ist von bekannten Sprachen wie C++, Python, JavaScript beeinflusst. Wir haben für dich ein [Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet/blob/master/README.md) geschrieben, welches die wichtigsten Sprachkonstrukte erklärt.
 
 ### Remix
 
