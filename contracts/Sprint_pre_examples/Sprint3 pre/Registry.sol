@@ -51,12 +51,12 @@ contract Payment{
 contract Registry {
     mapping(address => address[]) private userContracts;
     
-    function createNewBill(uint _fee, string _topic) public {
-        address newBill = new Payment(_fee,_topic);
-        userContracts[msg.sender].push(newBill);
+    function createNewPayment(uint _fee, string _topic) public {
+        address newPayment = new Payment(_fee,_topic);
+        userContracts[msg.sender].push(newPayment);
     }
 
-    function getMyBills() public view returns(address[]){
+    function getMyPayments() public view returns(address[]){
         return userContracts[msg.sender];
     }
 
