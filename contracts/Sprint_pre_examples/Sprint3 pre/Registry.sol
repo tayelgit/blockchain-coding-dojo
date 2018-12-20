@@ -23,6 +23,10 @@ contract Payment{
         hasPaid.push(msg.sender);
     }
 
+    function whoHasPaid() public view onlyOwner() returns(address[]) {
+        return hasPaid;
+    }
+
     function showReceipt()public view returns (bool){
         return paid[msg.sender];
     }
@@ -42,9 +46,6 @@ contract Payment{
         owner.transfer(amount);
     }
 
-    function whoHasPaid() public view onlyOwner() returns(address[]) {
-        return hasPaid;
-    }
 }
 
 contract Registry {

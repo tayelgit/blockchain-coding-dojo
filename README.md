@@ -4,7 +4,7 @@ Bei diesem Coding Dojo von [iteratec](https://www.iteratec.at) lernst du, wie ma
 
 Nach einer kurzen Einführung in die Programmiersprache [Solidity](https://solidity.readthedocs.io/en/v0.4.25/) werdet ihr als 2er Teams in iterativen Sprints die Applikation Schritt für Schritt entwickeln. Für Teams, die besonders schnell sind, wird der Schwierigkeitsgrad mittels neuer Features laufend angepasst. Die Herausforderungen reichen von Anfänger bis Profi, es werden jedoch keinerlei Blockchain-Kenntnisse vorausgesetzt.
 
-In diese Repo findest du alles, was du dafür brauchst.
+In diesem Repo findest du alles, was du dafür brauchst.
 
 ## Prerequisites
 
@@ -24,17 +24,17 @@ Während des Dojos benutzen wir folgende Tools. Davon musst du _nichts_ installi
 
 [Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet/blob/master/README.md)
 
-Solidity ist die Standard Sprache für Smart Contracts auf der Ethereum Blockchain. Sie ist von bekannten Sprachen wie C++, Python, JavaScript beeinflusst. Wir haben für dich ein [Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet/blob/master/README.md) geschrieben, welches die wichtigsten Sprachkonstrukte erklärt.
+Solidity ist die Standard Sprache für Smart Contracts auf der Ethereum Blockchain. Sie ist von bekannten Sprachen wie C++, Python, JavaScript beeinflusst. Hier findest du ein [Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet/blob/master/README.md) welches die wichtigsten Sprachkonstrukte erklärt.
 
 ### Remix
 
 [hier](https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.25+commit.59dbf8f1.js)
 
-Remix ist eine [Solidity](https://solidity.readthedocs.io/en/v0.4.25/) IDE für den Browser. Wir verwenden sie um die Smart Contracts auf Ethereum zu entwickeln und zu deployen. Sie hat eingbautes Highlighting, Linting, eine Ethereum-Console, einen Compiler sowie die Möglichkeit Contracts zu deployen und aufzurufen.
+Remix ist eine [Solidity](https://solidity.readthedocs.io/en/v0.4.25/) IDE für den Browser. Wir verwenden sie um die Smart Contracts auf Ethereum zu entwickeln und zu deployen. Sie hat eingebautes Highlighting, Linting, eine Ethereum-Console, einen Compiler sowie die Möglichkeit Contracts zu deployen und aufzurufen.
 
 ## Ablauf
 
-Anfangs werdet ihr in Gruppen eingeteilt. Jeder Gruppenleiter gibt euch dann eine Möglichkeit sich in mit einem Netzwerk zu verbinden. Erst dann bekommst du einen der [keys](./keys.md) zugeteilt.
+Anfangs werdet ihr in Gruppen eingeteilt. Jeder Gruppenleiter gibt euch dann eine Möglichkeit sich mit einem Node zu verbinden. Erst dann bekommst du einen der [keys](./keys.md) zugeteilt.
 
 Danach gehen die Sprints los.
 
